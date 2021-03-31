@@ -51,5 +51,9 @@ input[type=text]:hover {
     vertical-align: text-top;
 }
 
-
+.month-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
    
