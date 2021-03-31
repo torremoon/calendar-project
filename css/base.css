@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:beige ;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-top: 1px solid gray;
+    border-bottom:  1px solid gray;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    flex: 1;    
+}
+
+.title .name a {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em
+}
+
+.name { 
+    padding: 10px 0px;
+    margin: 10px 10px 10px 100px;
+}
+
+footer {
+    height: 40px;
+    color: transparent;
+}

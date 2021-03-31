@@ -1,0 +1,36 @@
+header ul {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    width: 500px;
+    flex: 1;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1 0 200px;
+    min-height: 400px;
+}
+
+.day-1, .day-2, .day-3 {
+    border-right: 1px solid gray;
+}
+
+.day-image {
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > h2 {
+    padding-top: 20px;
+    text-align: center;
+}
