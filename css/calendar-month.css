@@ -35,20 +35,18 @@ input[type=text]:hover {
 }
 
 .head-row > th {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 }
 
 .main-tbody, .mini-tbody {
-    border-spacing: 20px;
+    border-spacing: 30px;
     text-align: center;
 }
 
 .month { 
     width: 200px;
     height: 150px;
-    border: 1px solid black;
-    vertical-align: text-top;
 }
 
 .month-wrapper {
@@ -56,4 +54,55 @@ input[type=text]:hover {
     flex-direction: column;
     justify-content: space-around;
 }
+
+.days-jan {
+    background-color: #f94144;
+}
+
+.days-feb {
+    background-color: #f3722c;
+}
+
+.days-march {
+    background-color: #f8961e;
+}
+
+.days-april {
+    background-color: #f9844a;
+}
+
+.days-may {
+    background-color: #f9c74f;
+}
+
+.days-june {
+    background-color: #90be6d;
+}
+
+.days-july {
+    background-color: #43aa8b;
+}
+
+.days-aug {
+    background-color: #4d908e;
+}
+
+.days-sep {
+    background-color: #577590;
+}
+
+.days-oct {
+    background-color: #277da1; 
+}
+
+.days-nov {
+    background-color: #8931c4;
+}
    
+.days-dec {
+    background-color: #c44eb2;
+}
+
+.year {
+    font-size: 50px;
+}
