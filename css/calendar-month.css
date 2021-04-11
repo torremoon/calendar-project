@@ -1,8 +1,23 @@
+@font-face {
+    font-family: "Retro Gaming";
+    src: url("../fonts/Retro Gaming.ttf") format("truetype");
+}
+
 main {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+.year-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.year-wrapper button {
+    margin: 0px 10px;
+    padding: 5px;
+}
 
 .search-bar {
     display: flex;
@@ -28,81 +43,77 @@ input[type=text]:hover {
     background-color: #86ace6;
 }
 
-.main-table, mini-table {
+.months-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 910px;
+    margin: 0px 50px;
+}
+
+.month {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 15px;
 }
 
-.head-row > th {
-    width: 70px;
-    height: 70px;
+.month table {
+    border-collapse: collapse;
 }
 
-.main-tbody, .mini-tbody {
-    border-spacing: 30px;
+.month td, .month th {
+    width: 28px;
+    height: 22px;
     text-align: center;
 }
 
-.month { 
-    width: 200px;
-    height: 150px;
-}
-
-.month-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.days-jan {
+.january thead {
     background-color: #f94144;
 }
 
-.days-feb {
+.february thead {
     background-color: #f3722c;
 }
 
-.days-march {
+.march thead {
     background-color: #f8961e;
 }
 
-.days-april {
+.april thead {
     background-color: #f9844a;
 }
 
-.days-may {
+.may thead {
     background-color: #f9c74f;
 }
 
-.days-june {
+.june thead{
     background-color: #90be6d;
 }
 
-.days-july {
+.july thead {
     background-color: #43aa8b;
 }
 
-.days-aug {
+.august thead {
     background-color: #4d908e;
 }
 
-.days-sep {
+.september thead {
     background-color: #577590;
 }
 
-.days-oct {
+.october thead {
     background-color: #277da1; 
 }
 
-.days-nov {
+.november thead {
     background-color: #8931c4;
 }
    
-.days-dec {
+.december thead {
     background-color: #c44eb2;
 }
 
-.year {
-    font-size: 50px;
-}
